@@ -1,0 +1,51 @@
+<section name="tickets">
+
+    <h2>
+        <i class="icon icon-ticket"></i>
+        <span>
+            Tickets and Admission
+        </span>
+    </h2>
+
+    <form action="php/form-handler.php" method="POST">
+        <h3>Amount of Guests</h3>
+
+        <p>
+            <fieldset>
+                <label>Adult:</label>
+                <select name="adults">
+                    <option>2</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label>Children:</label>
+                <select name="children">
+                    <option>1</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label>Senior:</label>
+                <select name="seniors">
+                    <option>0</option>
+                </select>
+            </fieldset>
+        </p>
+
+        <p>
+            <fieldset>
+                <label>Adult 1</label>
+                <input type="text" placeholder="Example Wood" name="name" required>
+                <label>
+                    <input type="checkbox" name="fast_pass"></input>
+                    + Fast Pass >>
+                </label>
+                <canvas>Ticket picture</canvas>
+            </fieldset>
+        </p>
+
+        <p>
+            <button>Checkout and Confirm the tickets</button>
+        </p>
+    </form>
+
+</section>
